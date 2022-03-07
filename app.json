@@ -11,7 +11,7 @@
         "ForceSubBot"
     ],
     "repository": "https://github.com/shrvan42/ForceSub_Bot",
-    "success_url": "https://t.me/TgxBotz_Update",
+    "success_url": "https://t.me/The_Roboton",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",

@@ -120,7 +120,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Updates Channel](https://t.me/The_Roboton).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/MusicUpdates_chat).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return

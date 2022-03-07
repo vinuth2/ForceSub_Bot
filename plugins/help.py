@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Vinuth96).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/MusicUpdates_chat).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,7 +42,7 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Updates Channel", url="https://t.me/Vinuth_BOTs"),
+                           InlineKeyboardButton("Updates Channel", url="https://t.me/The_Roboton"),
                            InlineKeyboardButton("Developer", url="https://t.me/VinuthPMBot")
                       ],
 
@@ -57,7 +57,7 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Updates Channel", url="https://t.me/Vinuth_BOTs"),
+                    InlineKeyboardButton("Updates Channel", url="https://t.me/The_Roboton"),
                     InlineKeyboardButton("Developer", url="https://t.me/VinuthPMbot")
                 ],
             ]
@@ -77,8 +77,8 @@ def _source_code(client, message):
                     InlineKeyboardButton("Creator", url="https://t.me/VinuthPmBot")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Vinuth_BOTs"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/Vinuth96")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/The_Roboton"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/MusicUpdates_chat")
                 ],
                 [
                     InlineKeyboardButton("Creator", url="https://t.me/VinuthPmBot")
@@ -98,7 +98,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tgxbotz_chat).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/MusicUpdates_chat).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -120,7 +120,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Updates Channel](https://t.me/Vinuth_BOTs).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Updates Channel](https://t.me/The_Roboton).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return

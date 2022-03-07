@@ -25,6 +25,6 @@ class Messages():
         
         "**Commmands**\n/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.",
         
-       "**☇ Devloped By: t.me/The_Roboton**"
+       "**☇ Devloped By: [Roboton](http://t.me/The_Roboton)**"
       ]
       START_MSG = "**Hey [{}](tg://user?id={})**\nI can force members to join a specific channel before writing messages in the group.\nLearn more at /help"
